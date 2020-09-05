@@ -1,0 +1,75 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #efefef;
+    font-size: 16px;
+    color: #777;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+#login-box{
+    margin: 5% auto;
+    position: relative;
+    height: 400px;
+    width: 600px;
+    background: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.6) ;
+}
+.left-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+}
+h1{
+margin: 0 0 20px 0;
+font-weight: 300;
+font-size: 28px;
+}
+.right-box{
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+    background-image: url(https://source.unsplash.com/collection/190727/1600x900);
+   
+
+}
+
+.right-box .signinwith{
+    display: block;
+    margin-bottom: 40px;
+     font-size: 28px;
+     color:black;
+     text-align: center;
+     
+}
+button.social{
+    margin-bottom: 20px;
+    width: 220px;
+    height: 39px;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 500;
+    transition: 0.2s ease;
+    cursor: pointer;
+
+}
+.facebook{
+    background-color: blue;
+}
+.twitter{
+    background-color: lightblue;
+}
+.google{
+    background-color: hotpink;
+}
